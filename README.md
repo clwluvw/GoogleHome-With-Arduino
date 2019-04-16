@@ -2,9 +2,10 @@
 This project contains Node.js Express & WebSocket for getting request from IFTTT Webhook service and send it to ESP8266 WebSocket Client for changing light state on/off
 
 ESP8266 codes stored in `ArduinoESP8266` directory
+
 Server codes stored in `Server` directory
 
-# Setup server
+# Server Setup
        node index.js
 
 # Arduino ESP8266 Setup
