@@ -1,4 +1,4 @@
-# IFTTT With Google Assistant
+# Google Home with Arduino
 This project contains Node.js Express & WebSocket for getting request from IFTTT Webhook service and send it to ESP8266 WebSocket Client for changing light state on/off
 
 ESP8266 codes stored in `ArduinoESP8266` directory
@@ -17,3 +17,8 @@ Server codes stored in `Server` directory
 1. Add `ArduinoESP8266/ESP8266-Websocket` to Arduino libraries
     * https://github.com/morrissinger/ESP8266-Websocket
 1. Config your Wifi and your server informations in `ArduinoESP8266/ESP8266-Websocket/ESP8266.c`
+
+# IFTTT Setup
+1. Link your Google Assistant to your IFTTT account
+1. Create Webhook Alphabet in your IFTTT account
+1. configure it with your <your_ip_or_domain>/config/?lampID=<lamp_num_in_index.js>&state=<on_or_off>
